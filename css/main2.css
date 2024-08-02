@@ -1,0 +1,77 @@
+.sidebar {
+  width: 150px;
+  height: 100vh;
+  background: #484bb3;
+  position: fixed;
+  z-index: 5;
+  color: white;
+  transition: all 0.5s;
+  transform: translateX(-100px);
+}
+
+.sidebar:hover {
+  transform: translateX(0px);
+}
+
+.sidebar i {
+  transition: all 0.6s;
+  transform: translateX(100px);
+}
+
+.sidebar:hover i {
+  transform: translateX(0px);
+}
+
+.sidebar div {
+  margin: 20px 0px 0px 15px;
+}
+
+.content {
+  margin-left: 50px;
+}
+
+.black-bg {
+  background-color: black;
+  color: white;
+}
+
+.input-animation {
+  width: 150px;
+  transition: width 1s;
+}
+
+.input-animation:focus {
+  width: 500px;
+}
+
+input::-webkit-input-placeholder {
+  padding-left: 5px;
+}
+
+input {
+  outline: none;
+}
+
+.card-blue {
+  border-left: 4px solid skyblue;
+  border-radius: 5px;
+  box-shadow: 0px 0px 7px lightgray;
+}
+
+.card-green {
+  border-left: 4px solid lightgreen;
+  border-radius: 5px;
+  box-shadow: 0px 0px 7px lightgray;
+}
+
+.card-purple {
+  border-left: 4px solid purple;
+  border-radius: 5px;
+  box-shadow: 0px 0px 7px lightgray;
+}
+
+.card-yellow {
+  border-left: 4px solid yellow;
+  border-radius: 5px;
+  box-shadow: 0px 0px 7px lightgray;
+}/*# sourceMappingURL=main2.css.map */

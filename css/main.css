@@ -1,0 +1,156 @@
+
+/* Nav-bar section */
+
+.nav-bar {
+    background: #38419D;
+    color: white;
+    position: fixed;
+    width: 150px;
+    height: 100vh;
+    padding: 15px;
+    font-size: 15px;
+    z-index: 5;
+    transition: all 0.5s;
+    transform: translateX(-100px);
+}
+
+.nav-bar:hover {
+    transform: translateX(0px);
+}
+
+.nav-bar svg {
+    transition: all 0.5s;
+    transform: translateX(100px);
+}
+
+.nav-bar:hover svg{
+    transform: translateX(0px);
+}
+
+.nav-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.nav-container p {
+    padding-top: 16px;
+    padding-left: 10px;
+}
+
+/* Header section */
+
+.header {
+    border-bottom: 1px solid lightgrey;
+    padding: 10px;
+    box-shadow: 10px 0px 20px lightgray;
+}
+
+.search-bar {
+    position: relative;
+    margin-left: 45px;
+}
+
+.animation-input {
+    padding: 5px;
+    font-size: 14px;
+    padding-left: 10px;
+    border-radius: 5px;
+    width: 150px;
+    transition: width 1s;
+}
+
+.animation-input:focus {
+    width: 500px;
+}
+
+.search-btn {
+    background: black;
+    color: white;
+    padding: 2px 12px;
+    border-radius: 5px;
+    border: none;
+    z-index: 2;
+}
+
+.user-bar {
+    position: absolute;
+    right: 10px;
+    top: 17px;
+    display: flex;
+    color: gray;
+}
+
+.user-bar div {
+    margin-left: 20px;
+}
+
+.user-notification, .user-message {
+    position: relative;
+}
+
+.user-red-notification {
+    background: red;
+    color: white;
+    font-size: 11px;
+    padding: 1px 4px;
+    border-radius: 4px;
+    position: absolute;
+    top: -7px;
+    right: -9px;
+}
+
+/* Dashboard section */
+
+.dashboard {
+    margin-top: 20px;
+}
+
+.widget-box {
+    box-shadow: 1px 1px 5px lightgray;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.box-border-blue {
+    border-left: 3px solid skyblue;
+}
+
+.box-border-green {
+    border-left: 3px solid lightgreen;
+}
+
+.box-border-navy {
+    border-left: 3px solid navy;
+}
+
+.box-border-yellow {
+    border-left: 3px solid yellow;
+}
+
+.widget-icon {
+    position: absolute;
+    color: grey;
+    right: 20px;
+    top: 35px;
+}
+
+.dashboard-overview {
+    border: 1px solid lightgray;
+    box-shadow: 1px 1px 5px lightgray;
+    margin-left: 35px;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+.dashboard-tasks {
+    margin-left: 35px;
+    border: 1px solid lightgray;
+    margin-bottom: 50px;
+}
+
+.dashboard li {
+    border-bottom: 1px solid lightgray;
+    list-style: none;
+}
